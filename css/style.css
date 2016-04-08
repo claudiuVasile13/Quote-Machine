@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  height: auto;
+  background-image: url('http://paper4pc.com/images/tumblr-wallpaper-6.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#quotes {
+/*   border: 1px solid red; */
+  min-height: 100vh;
+  height: auto;
+/*   padding-top: 100px; */
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+}
+
+#quotes h2 {
+  color: #fff;
+  font-family: Courgette;
+}
+
+#quotes-machine {
+  background-color: #fff;
+  height: 250px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 0 15px #00688B;
+}
+
+#text {
+  padding: 15px;
+  font-family: Courgette;
+  color: #00688B;
+  font-size: 20px;
+  height: 200px;
+  text-align: justify;
+/*   border: 1px solid red; */
+  margin-bottom: 0;
+}
+
+#text i:nth-child(1) {
+  padding-right: 15px;
+}
+
+#quotes-machine p i:nth-child(2) {
+  padding-left: 15px;
+}
+
+#quotes-machine h4 {
+  margin-top: 0;
+/*   border: 1px solid blue; */
+  height: 50px;
+  padding-top: 12px;
+  background-color: #00688B;
+  font-family: Courgette;
+  color: #fff;
+}
+
+#buttons {
+  width: 50%;
+  padding-top: 10px;
+  margin: 0 auto;
+/*   border: 1px solid red; */
+}
+
+#twitter {
+  font-size: 50px;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+
+#twitter:hover {
+  color: #00688B;
+}
+
+#quote-button {
+  float: right;
+  height: 45px;
+  background-color: #fff;
+  padding: 12px;
+  font-family: Courgette;
+  font-size: 15px;
+  color: #00688B;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00688B;
+}
+
+#quote-button:hover {
+  background-color: #00688B;
+  color: #fff;
+  box-shadow: 0 0 15px #fff;
+}
+
+#clear {
+  clear: both;
+}
+
+@media screen and (max-height: 800px) {
+  #quotes-machine, #buttons {
+    width: 90%;
+  }
+  
+  #text {
+    overflow: auto;
+  }
+  
+  #buttons {
+    margin-bottom: 50px;
+  }
+}
